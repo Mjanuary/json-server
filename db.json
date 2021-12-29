@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john@gmail.com",
+      "age": 34,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "first_name": "Alice",
+      "last_name": "Kevin",
+      "email": "alice@gmail.com",
+      "age": 21,
+      "companyId": "1"
+    },
+    {
+      "id": "1",
+      "first_name": "Joseph",
+      "last_name": "Kevin",
+      "email": "joseph@gmail.com",
+      "age": 29,
+      "companyId": "2"
+    },
+    {
+      "id": "1",
+      "first_name": "Jonathan",
+      "last_name": "MAHORO",
+      "email": "mahoro@gmail.com",
+      "age": 23,
+      "companyId": "2"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "Apple Inc, is an American multinational technology company"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "Google is an American company with help to organize the data"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft",
+      "description": "Microsoft is an American company with help to organize the data"
+    }
+  ],
+  "auth": [
+    {
+      "id": "1",
+      "isAuthenticated": true,
+      "token": "string",
+      "user": {
+        "user_id": "12",
+        "username": "janvier",
+        "first_name": "muhawenimana",
+        "last_name": "janvier",
+        "email": "alice@gmail.com"
+      },
+      "rules": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  // users table
+  "users": [
+    {
+      "user_id": "",
+      "n_id": "",
+      "phone_number": "",
+      "email": "",
+      "password": "",
+      "user_info": {
+        "first_name": "",
+        "last_name": "",
+        "sex": "",
+        "dob": "",
+        "fathers_name": "",
+        "mothers_name": "",
+        "district": "",
+        "village": "",
+        "sector": ""
+      },
+      "details": [
+        {
+          "template_id": "",
+          "title": "Education",
+          "data": [
+            {
+              "title": "Primary",
+              "school_id": "23432",
+              "year": "2006"
+            },
+            {
+              "title": "Secondary",
+              "school_id": "234234",
+              "year": "2010"
+            },
+            {
+              "title": "Higher Education",
+              "data": [
+                {
+                  "title": "UR",
+                  "description": "Univers",
+                  "src": "",
+                  "year": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      // users roles
+      "roles_to_users": [
+        {
+          "system_user_access_id": "",
+          "status": "",
+          "access": ""
+        },
+        {
+          "system_user_access_id": "",
+          "status": "",
+          "access": ""
+        }
+      ]
+    }
+  ],
+
+  // templates (user details)
+  "templates": [
+    {
+      "id": "",
+      "title": "Education",
+      "data": [
+        {
+          "title": "Primary",
+          "school_id": "",
+          "year": ""
+        },
+        {
+          "title": "Secondary",
+          "school_id": "",
+          "year": ""
+        },
+        {
+          "title": "Higher Education",
+          "data": [
+            {
+              "title": "",
+              "description": "",
+              "src": "",
+              "year": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Experience",
+      "data": [
+        {
+          "id": "",
+          "title": "",
+          "description": "",
+          "src": "",
+          "start_year": "",
+          "end_year": ""
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Language",
+      "data": [
+        {
+          "id": "",
+          "title": "",
+          "description": "",
+          "src": ""
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Disability",
+      "data": [
+        {
+          "id": "",
+          "title": "",
+          "description": "",
+          "src": ""
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Disability",
+      "data": [
+        {
+          "id": "",
+          "disability_id": "",
+          "title": "",
+          "description": "",
+          "src": ""
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Awards",
+      "data": [
+        {
+          "id": "",
+          "title": "",
+          "description": "",
+          "src": "",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": "Reference",
+      "data": [
+        {
+          "id": "",
+          "title": "",
+          "description": "",
+          "email": "",
+          "names": "",
+          "phone_number": "",
+          "company": "",
+          "position": "",
+          "relation": "",
+          "src": "",
+          "year": ""
+        }
+      ]
+    }
+  ],
+
+  "system_access": [
+    {
+      "id": "",
+      "title": "Personal info",
+      "access": {
+        "create": false,
+        "delete": false,
+        "update": false,
+        "view": false
+      }
+    }
+  ],
+
+  "system_user_access": [
+    {
+      "system_user_access_id": "",
+      "user_title": "Candidate",
+      "access": [
+        {
+          "id": "",
+          "title": "Personal info",
+          "key": "personal_info",
+          "access": {
+            "create": true,
+            "delete": false,
+            "update": true,
+            "view": true
+          }
+        }
+      ]
+    }
+  ]
+}
